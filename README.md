@@ -37,6 +37,7 @@
 
 ```
 git clone https://github.com/apoorvakaroshi/ai-code-explainer.git
+
 cd ai-code-explainer
 ```
 
