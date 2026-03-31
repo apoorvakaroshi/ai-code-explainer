@@ -1,4 +1,5 @@
-**LogicLens AI 👓** 
+# LogicLens AI 👓
+
 An AI-powered web application that analyzes and explains code in simple, human-readable steps using advanced language models.
 
 ---
@@ -11,82 +12,55 @@ An AI-powered web application that analyzes and explains code in simple, human-r
 ### 🧠 Code Explanation Output
 ![Output](screenshot-output.png)
 
-```
-
-## 🚀 Features
-
-* Paste any code and get instant explanation
-* Powered by Groq LLM (LLaMA 3)
-* Clean and responsive UI
-* Fast backend using Flask
-
 ---
 
-## 🛠️ Tech Stack
+## 1. Clone the Repository
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Flask (Python)
-* **AI Model:** Groq API (LLaMA 3.3 70B)
+git clone <repository-url>  
+cd <repository-folder>
 
----
+## 2. Install Dependencies
 
-## ⚙️ Setup Instructions
+Install dependencies using:
 
-### 1. Clone the repository
-
-```
-git clone https://github.com/apoorvakaroshi/ai-code-explainer.git
-cd ai-code-explainer
-```
-
-### 2. Install dependencies
-
-```
 pip install -r requirements.txt
-```
 
-### 3. Add your API key
+## 3. Add API Key
 
-Open `app.py` and replace:
+Add your API key in `app.py` by replacing:
 
-```
 client = Groq(api_key="YOUR_API_KEY")
-```
 
-### 4. Run the application
+## 4. Run the Application
 
-```
+Run the application using:
+
 python app.py
-```
 
-### 5. Open in browser
+## 5. Open in Browser
 
-```
-http://127.0.0.1:5000
-```
+Open your browser at: http://127.0.0.1:5000
 
 ---
 
 ## 💡 Usage
 
-* Paste your code into the input box
-* Click **"Explain Code"**
-* Get clear step-by-step explanation instantly
+Paste your code → click **Explain Code** → get explanation
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Multi-language support
-* Voice explanation
-* Code summarization
-* Error detection
+- Multi-language support  
+- Voice explanation  
+- Code summarization  
+- Error detection  
 
 ---
 
 ## 🧠 Concept
 
-LogicLens AI acts as a lens that reveals the underlying logic of code, making complex programs easy to understand.
+**LogicLens AI** acts as a lens that reveals the underlying logic of code, making complex programs easy to understand.
 
 ---
 
