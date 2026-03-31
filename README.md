@@ -16,8 +16,9 @@ An AI-powered web application that analyzes and explains code in simple, human-r
 
 ## 1. Clone the Repository
 
-git clone <repository-url>  
-cd <repository-folder>
+git clone https://github.com/apoorvakaroshi/ai-code-explainer.git
+
+cd ai-code-explainer
 
 ## 2. Install Dependencies
 
